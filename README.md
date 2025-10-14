@@ -22,11 +22,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Windows 10 VM with IIS Installed (with CGI ENABLED)
+- PHP Installed and Configured (PHP 7.3.8)
+- Database Server (MYSQL 5.5+)
+- Required PHP Extensions (php_imap.dll, php_intl.dll, and php_opcache.dll.)
+- Administrative Tools (HeidiSQL)
 
 <h2>Installation Steps</h2>
 
