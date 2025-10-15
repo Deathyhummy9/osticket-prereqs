@@ -27,7 +27,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/da416d98-5e16-42c6-83f8-e5319b5d96da" />
+
+</>
 </p>
 <p>
 Within the VM install The osTicket installation files using  osTicket-Installation-Files.zip and unzip(extract all files) on to the desktop  we will use the files inside the folder to install osTicket and some of its dependencies. Search up IIS and right-click and run as admin  go to world wide wen services —-- application development features— and enable cgi
@@ -35,7 +37,9 @@ Within the VM install The osTicket installation files using  osTicket-Installati
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/e3b97de1-6ec5-478f-bc31-3c55564e69c8" />
+
+
 </p>
 <p>
 From the inside of osTicket-Installation-Files we will install the dependencies for osTicket first  right click on PHP Manager  after create a directory in the main storage named c:\PHP
@@ -46,7 +50,8 @@ Next unzip PHP 7.3.8 into the C:\PHP file we just made  install VC redist.x86.ex
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/8281a3eb-71cd-4b4a-9e86-d086e201b788" />
+
 </p>
 <p>
 Open IIS as an Admin Register PHP from within IIS (PHP Manager — C:\PHP\php-cgi.exe) Reload IIS (Open IIS, Stop and Start the server)
@@ -60,13 +65,14 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/87fd3839-d4df-438a-ae25-f723d42ec9dd" />
+
 </p>
 <p>
 Go to sites -> Default -> osTicket
 On the right, click “Browse *:80”
 
-Note that some extensions are not enabled
+ some extensions are not enabled
 Go back to IIS, sites -> Default -> osTicket
 Double-click PHP Manager
 Click “Enable or disable an extension”
@@ -82,7 +88,8 @@ Refresh the osTicket site in your browser, observe the changes
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/de641c3e-43ab-4b1d-ac15-787b99171073" />
+
 </p>
 <p>
 Rename: ost-config.php
@@ -99,7 +106,8 @@ Default email (receives email from customers)
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Screenshot (32)" src="https://github.com/user-attachments/assets/d8c1f4a2-f136-448c-9fd9-2c916de01945" />
+
 </p>
 <p>
 From the osTicket-installation-files folder  install HEIDISQL
@@ -114,5 +122,9 @@ MySQL Database: osTicket  MySQL Username: root  MySQL Password: root Click “In
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/cb8f877d-980a-42c7-8dc9-09ac41a2f0e4" />
+</p>
+<p>
+        Congraluations we completed the lab
+</p>        
 <br />
