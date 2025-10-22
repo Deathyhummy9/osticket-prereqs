@@ -3,8 +3,8 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
-
+This project demonstrates the installation and configuration of the open-source ticketing system **osTicket** to simulate a real-world IT help desk environment.  
+This lab replicates what Tier 1 & Tier 2 support technicians typically handle when supporting ticketing infrastructure in small to mid-sized organizations.
 
 <h2>Environments and Technologies Used</h2>
 
