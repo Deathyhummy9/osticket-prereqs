@@ -127,4 +127,19 @@ MySQL Database: osTicket  MySQL Username: root  MySQL Password: root Click “In
 <p>
         Congraluations we completed the lab
 </p>        
+Troubleshooting Notes
+- If PHP is not recognized in IIS → re-register `php-cgi.exe`.
+- If required extensions are missing → enable them in PHP Manager.
+- If site does not load → check NSG rules and Windows Firewall for port 80.
+- Ensure `ost-config.php` has proper permissions after renaming.
+
+Results & Takeaways
+Successfully deployed osTicket on a Windows 10 VM with IIS and MySQL.  
+ Verified PHP extensions, database connectivity, and web application setup.  
+ Gained practical experience configuring and securing a help desk platform.
+
+ Business Relevance: 
+- Ticketing systems like osTicket are commonly used in small and medium organizations.  
+- Understanding how to deploy and configure them prepares you for real-world IT support tasks
+
 <br />
